@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Search Animation</title>
+    <!-- Include Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="animation-container">
+        <div class="search-box first-search">
+            <span class="search-icon">
+                <!-- Font Awesome magnifying glass icon -->
+                <i class="fas fa-search"></i>
+            </span>
+            <input type="text" id="search-input" disabled>
+        </div>
+        <div class="image-container">
+            <div id="skeleton-loader"></div>
+            <img id="result-image" src="" alt="Search Result">
+        </div>
+        <!-- Custom cursor element -->
+        <div id="custom-cursor"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
