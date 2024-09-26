@@ -6,9 +6,11 @@ const customCursor = document.getElementById('custom-cursor');
 const animationContainer = document.querySelector('.animation-container');
 
 const searchQueries = [
-    { query: 'a spacex raptor engine', image: 'images/raptor-engine.jpeg' },
-    { query: 'blue origins new glenn', image: 'images/new-glenn.jpeg' },
-    { query: 'astranis satellite bus', image: 'images/astranis.jpeg' }
+    { query: 'spacex raptor engine v3', image: 'images/raptor-engine-v3.png' },
+    { query: 'starship static fire', image: 'images/starship-static-fire.png' },
+    { query: 'new sheparad landing', image: 'images/new-shepard-landing.png' },
+    { query: 'falcon 9 on pad', image: 'images/f9-on-pad.png' },
+    { query: 'astranis satellite bus', image: 'images/astranis-satellite-2.png' }
 ];
 
 let currentSearch = 0;
@@ -44,7 +46,7 @@ function animateCursorToSearchBox(callback) {
     setTimeout(() => {
         // Expand the search box
         searchBox.style.width = '100%';
-        searchBox.style.maxWidth = '260px';
+        searchBox.style.maxWidth = '400px';
 
         // Start the search animation after the search box has expanded
         setTimeout(() => {
