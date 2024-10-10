@@ -4,7 +4,7 @@ body {
 }
 
 .animation-container {
-  width: 450px;
+  width: 350px;
   height: 500px;
   border: 1px solid #000;
   padding: 20px;
@@ -25,7 +25,7 @@ body {
 .search-box {
   margin-bottom: 20px;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   position: relative;
   transition: width 0.5s ease;
   margin: 0 auto 20px auto; /* Center horizontally */
@@ -56,7 +56,7 @@ body {
 }
 
 .image-container {
-  width: 400px;
+  width: 300px;
   height: 400px;
   position: relative;
   margin: 0 auto; /* Center horizontally */
@@ -87,7 +87,7 @@ body {
 #result-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
   display: none;
   border-radius: 5px;
 }

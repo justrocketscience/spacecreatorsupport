@@ -8,7 +8,7 @@ const animationContainer = document.querySelector('.animation-container');
 const searchQueries = [
     { query: 'spacex raptor engine v3', image: 'images/raptor-engine-v3.png' },
     { query: 'starship static fire', image: 'images/starship-static-fire.png' },
-    { query: 'new sheparad landing', image: 'images/new-shepard-landing.png' },
+    { query: 'new shepard landing', image: 'images/new-shepard-landing-aj.svg' },
     { query: 'falcon 9 on pad', image: 'images/f9-on-pad.png' },
     { query: 'astranis satellite bus', image: 'images/astranis-satellite-2.png' }
 ];
