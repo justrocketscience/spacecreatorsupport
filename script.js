@@ -6,11 +6,11 @@ const customCursor = document.getElementById('custom-cursor');
 const animationContainer = document.querySelector('.animation-container');
 
 const searchQueries = [
-    { query: 'spacex raptor engine v3', image: 'images/raptor-engine-v3.png' },
-    { query: 'starship static fire', image: 'images/starship-static-fire.png' },
-    { query: 'new shepard landing', image: 'images/new-shepard-landing-aj.svg' },
-    { query: 'falcon 9 on pad', image: 'images/f9-on-pad.png' },
-    { query: 'astranis satellite bus', image: 'images/astranis-satellite-2.png' }
+    { query: 'spacex raptor engine v3', image: 'images/SVG-images/raptor-engine-v3.svg' },
+    { query: 'starship static fire', image: 'images/SVG-images/starship-static-fire.svg' },
+    { query: 'new shepard landing', image: 'images/SVG-images/new-shepard-landing.svg' },
+    { query: 'falcon 9 on pad', image: 'images/SVG-images/f9-on-pad.svg' },
+    { query: 'astranis satellite bus', image: 'images/SVG-images/astranis-satellite-bus.svg' }
 ];
 
 let currentSearch = 0;

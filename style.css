@@ -56,16 +56,19 @@ body {
 }
 
 .image-container {
-  width: 290px;
+  width: 100%; /* Allow it to take full container width */
+  display: flex; /* Enable Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   height: 400px;
-  position: relative;
-  margin: 0 auto; /* Center horizontally */
-  border-radius: 5px;
+  margin: 0 auto;
 }
 
 #skeleton-loader {
   width: 100%;
   height: 100%;
+  margin: auto;
+  object-fit: contain;
   background-color: #ccc;
   animation: pulse 1s infinite;
   display: none;
@@ -87,7 +90,8 @@ body {
 #result-image {
   width: 100%;
   height: 100%;
-  object-fit: scale-down;
+  object-fit: contain;
+  margin: auto;
   display: none;
   border-radius: 5px;
 }
