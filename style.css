@@ -46,6 +46,17 @@ body {
   border-radius: 30px;
 }
 
+
+input::placeholder {
+  color: black !important; /* Placeholder color */
+  opacity: 1;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important; /* Autofill color */
+  transition: background-color 5000s ease-in-out 0s; /* Prevent background change */
+}
+
 .search-icon {
   position: absolute;
   left: 10px;
